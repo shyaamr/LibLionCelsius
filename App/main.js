@@ -7,5 +7,3 @@ function updateLib(idName) {
   console.log(storage.getItem(idName))
   dateChange()
   }
-
-}

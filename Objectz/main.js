@@ -1,5 +1,4 @@
 var storage = window.localStorage;
-var shyaamDue
 
 function updateLib(idName) {
   var element = document.getElementById(idName);
@@ -7,5 +6,3 @@ function updateLib(idName) {
   console.log(storage.getItem(idName))
   dateChange()
   }
-
-}
